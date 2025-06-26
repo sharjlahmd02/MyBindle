@@ -1,0 +1,205 @@
+
+
+/* Large desktops and below */
+@media (max-width: 1200px) {
+  .hero .text h1 {
+    font-size: 54px;
+    line-height: 62px;
+  }
+}
+
+/* Medium devices: tablets and small laptops */
+@media (max-width: 992px) {
+  .hero,
+  .about,
+  .cta .cta-box,
+  .footer .footer-box,
+  .features .card-box .inner-box {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .hero .text,
+  .hero .banner,
+  .cta .cta-text,
+  .cta .cta-image,
+  .footer-text,
+  .footer-image,
+  .about .image,
+  .about .addtional-text,
+  .features .heading,
+  .features .card-box {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero .banner img,
+  .cta .cta-image img,
+  .footer-image img,
+  .about .image img {
+    width: 85%;
+    margin: auto;
+  }
+
+  .features .card,
+  .step-box,
+  .about .about-card,
+  .testimonial-card {
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .features .card h3 {
+    font-size: 18px;
+  }
+
+  .features .card p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .step-indicator {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .step-indicator hr {
+    display: none;
+  }
+}
+
+/* Tablets and smaller devices */
+@media (max-width: 768px) {
+  .hero .text h1,
+  .about .addtional-text h3,
+  .cta .cta-text h1,
+  .footer-text h1,
+  .test h3,
+  .work .work-heading h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .hero .text p,
+  .cta .cta-text p,
+  .footer-text p,
+  .about .addtional-text p,
+  .step-box p,
+  .testimonial-card .text,
+  .features .card p {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .features .heading h1 {
+    font-size: 24px;
+  }
+
+  .features .card h3 {
+    font-size: 17px;
+  }
+
+  .features .card-box .inner-box {
+    padding: 0 10px;
+    gap: 20px;
+  }
+
+  .about .about-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .cta .cta-text,
+  .footer-text {
+    padding: 20px;
+  }
+
+  #get,
+  #see-more {
+    width: 90%;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .user img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .hero .text h1,
+  .cta .cta-text h1,
+  .footer-text h1,
+  .test h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .hero .text p,
+  .cta .cta-text p,
+  .footer-text p,
+  .about .addtional-text p,
+  .step-box p,
+  .testimonial-card .text,
+  .features .card p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .features .heading h1 {
+    font-size: 20px;
+  }
+
+  .features .card h3 {
+    font-size: 15px;
+  }
+
+  .hero .text,
+  .cta .cta-text,
+  .footer-text,
+  .about .addtional-text,
+  .features .heading {
+    padding: 15px;
+  }
+
+  .features .card-box .inner-box {
+    padding: 0 10px;
+    gap: 16px;
+  }
+
+  .about .about-card,
+  .features .card,
+  .step-box,
+  .testimonial-card {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .user-info strong {
+    font-size: 13px;
+  }
+
+  #get,
+  #see-more {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+  }
+
+  .download-buttons img {
+    width: 80%;
+  }
+
+  .footer-image img,
+  .cta-image img,
+  .hero .banner img {
+    width: 100%;
+  }
+}
